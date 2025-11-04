@@ -3,6 +3,7 @@ body {
   background: #fff;
   color: #000;
   font-family: "Inter", sans-serif;
+  font-weight: 600;
   margin: 0;
   padding: 0;
   display: flex;
@@ -17,7 +18,7 @@ header {
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 0.5rem;
   letter-spacing: 0.5px;
 }
@@ -31,7 +32,7 @@ nav a {
   text-decoration: none;
   margin: 0 1rem;
   font-size: 0.95rem;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
   transition: 0.2s;
 }
 
@@ -62,12 +63,12 @@ main.centered {
   width: 100%;
   height: auto;
   display: block;
-  border: 1px solid #000;
+  border: 2px solid #000;
   transition: opacity 0.3s ease;
 }
 
 .gallery img:hover {
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 /* Contact */
@@ -79,6 +80,7 @@ main.centered {
 .contact-info a {
   color: #000;
   text-decoration: underline;
+  font-weight: 700;
 }
 
 /* Footer */
@@ -88,4 +90,5 @@ footer {
   border-top: 1px solid #000;
   font-size: 0.9rem;
   color: #333;
+  font-weight: 500;
 }
