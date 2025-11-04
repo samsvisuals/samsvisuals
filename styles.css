@@ -1,4 +1,4 @@
-/* styles.css (mobile-friendly + bold minimal) */
+/* styles.css (mobile-friendly, larger images, no borders) */
 
 /* General */
 body {
@@ -58,24 +58,24 @@ main.centered {
 /* Gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-  max-width: 1000px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
   width: 100%;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .gallery img {
   width: 100%;
   height: auto;
   display: block;
-  border: 2px solid #000;
   transition: opacity 0.3s ease, transform 0.2s ease;
+  border: none;
 }
 
 .gallery img:hover {
-  opacity: 0.85;
-  transform: scale(1.01);
+  opacity: 0.9;
+  transform: scale(1.02);
 }
 
 /* Contact */
